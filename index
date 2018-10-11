@@ -3,26 +3,157 @@
 <html>
 
 <head>
-	<title>"Martin.github.io"</title>
+	<title>"Mon site super"</title>
 </head>
+<header>
+<h1 id="banniere">Martin GASQUE<br /><br /></h1>
+</header>
 
 <body>
 
+<div id="menu">
+		<p>Premier bouton</p><p>Deuxieme bouton</p><p>Troisieme bouton</p>	
+	</div>
+</div>
+<section>
+<div id="megabloc">
+	<p><strong>Alors comme ca, mon cas vous interesse ?</strong></p>
+<div id="bloc">
+	<p><br/>Je suis un jeune diplome de BTS Communication (promotion 2018) qui d&eacute;bute dans le codage informatique divers.</p>
 
-<h1>
-	Hello World
-</h1>
+	<p>Je vous laisse ici avec une serie d'image qui definissent ce que j'apprecie dans la vie ainsi que mes codes culturels</p>
+	<figure id="images">
+		<span id="1"><img src="Display/gallery/1.jpg" width="400"></span>
+		<span id="description1">Le jeux de r&ocirc;le est pour moi une exp&eacute;rience gratifiante, qui forge une<br/> th&eacute;atralit&eacute; et une imagination de mani&egrave;re ludique et intime entre amis.</span></div>
+		
+		<p><img src="Display/gallery/2.jpg" width="400"></a></p>
+		<p id="description1">Unity est l'une de mes r&eacute;centes d&eacute;couverte. J'y combine ma passion pour la cr&eacute;ation avec le codage</p>
+		<p><img src="Display/gallery/1.jpg"width="400"></a></p>
+		<p id="description1"></p>
+		<p><img src="Display/gallery/1.jpg"width="400"></a></p>
+		<p id="description1"></p>
+		<p><img src="Display/gallery/1.jpg"width="400"></a></p>
+		<p id="description1"></p>
+		<p><img src="Display/gallery/1.jpg"width="400"></a></p>
+		<p id="description1"></p>
+		<p><img src="Display/gallery/1.jpg"width="400"></a></p>
+		<p id="description1"></p>
+		<p><img src="Display/gallery/1.jpg"width="400"></a></p>
+		<p id="description1"></p>
+		<p><img src="Display/gallery/1.jpg"width="400"></a></p>
+		<p id="description1"></p>
+	</figure>
 
-<p>
-	I'm hosted with GitHub Pages. I need healing
-</p>
+	</ul>
+<ul>
+	<li><a href="http://m.memegen.com/y1s4cd.jpg">Pour la horde</a></li>
+	<li><a href="https://i.imgflip.com/sxq8r.jpg">Pour l'alliance</a></li>
+</ul>
+</div>
+<p>Que justice soit faite <br />
+Et ordre sera respecte <br />
+Par vents et par maux</p>
+</div>
+</section>
+<a href="#anchor1"> Revenir en haut</a>
+<h2>
+	Alors Comme ca on veux savoir ou j'habite ?!
+</h2>
 
+<h3>
+	<a href="index.html">Revenir a l'acceuil</a>
+</h3>
 
+<p> Eh bien je suis actuellement à Montlouis sur Loire, proche de la ceinture tourangelle.</p>
+
+<p>Vous pouvez consultez plus précisément grâce a cette map Google<br /><br /></p>
+
+<p>Sinon vous pouvez m'envoyer un e-mail sur mon adresse <em>mgasque.pro@gmail.com</em></p>
 </body>
 
 <style type="text/css">
-		body {
-			background-color: #E59018;
+
+	body
+	{
+	 	font-family: impact;
+		background-image: url(Display/site-background.jpg);
+		background-attachment:fixed;
+		background-size:cover;
+   		margin:0;
+	}
+
+
+		#menu
+		{
+			border: 5px;
+			font-size: 30px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+
+			width: 95%;
+			margin: auto;
+			background-color: darkgrey;
+			background-size: cover;
+			color: white;
+		}
+
+		#banniere
+		{
+			width:95%;
+			height: 100%;
+			background-size:contain;
+			text-align:center;
+			margin: auto;
+			font-size: 40px;
+			color:white;
+			background-image: url(Display/sea1.png);
+			background-repeat: no-repeat;
+			min-height: 200px;
+			min-width: 1280px;
+		}
+
+		#megabloc
+		{
+			font-size: 50px;
+			width:95%;
+			background-size:cover;
+			text-align: left;
+			background-image: url(Display/bloc1.png);
+			margin: auto;
+			text-align: center;
+			background-repeat: no-repeat;
+			min-height: 2000px;
+			min-width: 1280px;
+		}
+		#bloc
+		{
+			text-align: left;
+			font-size: 20px;
+		}
+
+		#images
+		{
+			display: flex;
+			flex-wrap: wrap;
+			
+			float: left;
+			border: 3px;
+			width: 800px;
+			box-shadow: 3px;
+			font-size: 12px;
+			font-family: tahoma;
+		}
+		
+		#description1
+		{  
+			white-space: nowrap;
+		}
+		*
+		{
+			margin-top:0;
+			margin-bottom:0;
 		}
 
 
