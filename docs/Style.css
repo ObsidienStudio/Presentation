@@ -444,12 +444,13 @@ a:hover
 	{
   		opacity: 0.3;
 	}
+
+.title:hover ~ .tile
+  	{
+  	transform: translate3d(250px * (1.5 - 1), 0, 0);
+	}
 .tile:hover
   	{
     transform: scale(1.5);
     opacity: 1;
-	}
-.title:hover ~ .tile
-  	{
-  	transform: translate3d(250px * (1.5 - 1), 0, 0);
 	}
