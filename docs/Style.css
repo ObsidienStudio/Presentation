@@ -99,7 +99,7 @@ body
 		#megabloc
 		{
 			font-family: Bookman;
-			font-size: 50px;
+			font-size: 300%;
 			width:95%;
 			background-color:#dcdad6;
 			border: 5px black ;
@@ -113,7 +113,7 @@ body
 		#bloc
 		{
 			text-align: left;
-			font-size: 20px;
+			font-size: 40%;
 		}
 
 		*
@@ -148,7 +148,7 @@ body
 
 		.sousimage
 		{
-			font-size: 21px;
+			font-size: 50%;
 			font-family:helvetica;
 
 		}
@@ -164,14 +164,14 @@ body
 		{
 			padding-top: 50px;
 			position:absolute;
-			right: 200px;
+			right: 100px;
 			height: 700px;
 			width: 700px;
 			border-radius: 700px;
 			background-color: #318ba3;
 			opacity:0.8;
 			z-index: 10;
-			font-size: 30px;
+			font-size: 60%;
 			font-family: tahoma;
 		}
 
@@ -179,7 +179,7 @@ body
 		{
 			position: absolute;
 			margin-top: 100px;
-			right: 700px; 
+			right: 600px; 
 			top:250px;
 			height: 700px; 
 			width: 700px;
@@ -187,7 +187,7 @@ body
 			background-color: #ee7057;
 			opacity:1;
 			font-family: tahoma;
-			font-size: 40px;
+			font-size: 80%;
 			margin-bottom: 150px;
 			z-index: 10;
 		}
@@ -206,7 +206,7 @@ body
 			display: flex;
 			flex-direction: row;
 			align-items: center;
-			font-size: 75px;
+			font-size: 140%;
 			text-shadow: 5px 5px 8px #225d6d;
 			margin: auto;
 			margin-top: 50px;
