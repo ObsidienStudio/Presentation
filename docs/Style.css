@@ -108,6 +108,7 @@ body
 			text-align: center;
 			background-repeat: no-repeat;
 			height: 75%
+			padding:35px;
 		}
 		#bloc
 		{
@@ -217,7 +218,7 @@ body
 			opacity: 0.9;
 			font-family: impact;
 			color: #318ba3;
-			border-radius: 8px;
+			border-radius: 5px;
 		}
 
 		.soustitre
@@ -275,6 +276,27 @@ body
 
 		}
 
+		#map_zone
+		{
+			width: 95%;
+			height: 700px;
+			background-color: #323232;
+			opacity: 0.8;
+			position: relative;
+			margin:auto;
+			padding: 50px;
+			color: #fff9ed;
+			font-size: 70%;
+			font-family: tahoma;
+			border-radius: 40px;
+			margin-bottom: 30px;
+			box-shadow: inset 5px 5px 5px black;
+		}
+		#map
+		{
+			width: 85%;
+			height: 500px;
+		}
 		footer
 		{
 			display: flex;
