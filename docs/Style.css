@@ -212,7 +212,6 @@
 		#First a
 		{
 			text-decoration: underline;
-
 		}
 
 		.soustexte
@@ -435,6 +434,7 @@
 		}
 		.tile
 		{
+			max-height: 200px;
 			margin: 10px;
 		}
 
