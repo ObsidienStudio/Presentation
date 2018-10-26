@@ -9,6 +9,7 @@
 		background-attachment:fixed;
 		background-size:cover;
 		text-overflow: ellipsis;
+		zoom: 60%;
 		}
 
 		a:link
