@@ -1,62 +1,58 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="fr">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>"Mon site super"</title>
 	<link rel="stylesheet" type="text/css" href="Style.css">
 </head>
-<header>
-<h1 id="banniere">Martin GASQUE<br /><br />
-<div id="bubble">
-</div>
-</h1>
-
-</header>
 
 <body>
-
-<div id="menu">
+	<header>
+<h1 id="banniere">Martin GASQUE</h1>
+<div id="bubble">
+</div>
+</header>
+<ul id="menu">
 		<li><a href="index.html">Accueil</a></li>
 		<li><a href="projets.html">Mes projets</a></li>
 		<li><a href="contact.html">Contact</a></li>
-</div>
-
-
+</ul>
 
 <div id="megabloc">
-<div id="bar">
+<div class="bar">
 	<p>Ressources pratiques</p>
 </div>
 
 
-<p class="soustitre">Ma zone g&eacute;ographique d'activit&eacute;</p>
-<div id="map_zone">
+<h2 style="color: #E96029; font-size: 100%;">Ma zone g&eacute;ographique d'activit&eacute;</h2>
+<div class="zone">
     <p style="padding-bottom: 35px;">Sur cette carte, vous pouvez consulter ma zone d'activit&eacute; g&eacute;ographique.</p>
-    <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d51401.37411303717!2d0.6842093550260052!3d47.38361406347343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1539682520998" id="map" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d51401.37411303717!2d0.6842093550260052!3d47.38361406347343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1539682520998" id="map"></iframe></p>
     <p style="padding-top: 20px; font-size: 60%;">Comme vous pouvez le voir je suis concentr&eacute; sur tours mais je reste malgr&egrave;s tout mobile.</p>
 </div>
 
-<div id="bar">
+<div class="bar">
   <p>Mail</p>
 </div>
-<div id="map_zone" style="margin-top: 40px;">
+<div class="zone" style="margin-top: 40px;">
     
-    <p>Contactez moi par mail en remplissant le formulaire ci-dessous:</p>
+  <p>Contactez moi par mail en remplissant le formulaire ci-dessous:</p>
 
-    <div id="mail"><form>
+  <div id="formulaire">
+    <form>
       <div>
         <label for="name">Nom:</label>
-        <input type="text" name="user_name">
+        <input type="text" name="user_name" id="name">
       </div>
       <div>
         <label for="mail">Adresse mail:</label>
-        <input type="text" name="user_mail">
+        <input type="text" name="user_mail" id="mail">
       </div>
       <div>
         <label for="content">Contenu:</label>
-        <textarea type="text" name="user_content"></textarea>
+        <textarea rows="6" name="user_content" id="content"></textarea>
         <p><button type="submit">Envoyer</button></p>
       </div>
     </form>
@@ -65,15 +61,16 @@
 </div>
 
 </div>
-</body>
 <footer>
 	
-	<A HREF="mailto:mgasque.pro@gmail.com">contactez-moi</A>
-	<p>Liens</p>
-	<p>Code</p>
+<p><A HREF="mailto:mgasque.pro@gmail.com">Contactez-moi</A></p>
+  <p><A HREF="https://github.com/ObsidienStudio/Presentation">Code</A></p>
+  <p>© 2018 ObsidienStudio</p>
 
 
 </footer>
+</body>
+
 
 
 </html>
